@@ -173,7 +173,7 @@
     border-radius: 4px;
 
     .form__agreement:focus + & {
-        border: 2px solid $-accent-color;
+        border: 2px solid $accent-color;
     }
 }
 
@@ -187,12 +187,7 @@
   
 .form__agreement {
     appearance: none;
-}
-  
-// .form__agreement:focus + .icon-check {
-//     border: 2px solid $-accent-color;
-// }
-  
+} 
   
 .agreement__link {
     color: $accent-color;

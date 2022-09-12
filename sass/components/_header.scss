@@ -75,6 +75,11 @@
     color: $accent-color;
   }
 
+  &--active {
+    color: $accent-color;
+  
+    position: relative;
+  }
 }
 
 .nav-contacts__link {
@@ -98,12 +103,6 @@
 
 .nav-contacts__item:not(:first-child) {
   margin-left: 30px;
-}
-
-.nav-site__link--active {
-  color: $accent-color;
-
-  position: relative;
 }
 
 .nav-site__link--active::after {
