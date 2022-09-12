@@ -823,7 +823,7 @@ background-color: rgba(47, 48, 58, 0.8);
 
 
 /* portfolio */
-.filter-list__button {
+/* .filter-list__button {
   display: inline-block;
   padding: 6px 22px;
   min-width: 73px;
@@ -839,9 +839,9 @@ background-color: rgba(47, 48, 58, 0.8);
   border-radius: 4px;
 
   transition: color var(--primary-transition), background-color var(--primary-transition), box-shadow var(--primary-transition);
-}
+} */
 
-.filter-list__button:hover,
+/* .filter-list__button:hover,
 .filter-list__button:focus {
   background-color: var(--accent-color);
   color: var(--secondary-bg-color);
@@ -862,7 +862,7 @@ background-color: rgba(47, 48, 58, 0.8);
 
 .filter-list__item:not(:first-child) {
   margin-left: 8px;
-}
+} */
 
 .filter-list,
 .projects-list {
