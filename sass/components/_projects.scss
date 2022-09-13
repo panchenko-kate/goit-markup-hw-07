@@ -3,6 +3,8 @@
     flex-wrap: wrap;
     box-sizing: border-box;
     list-style: none;
+
+    gap: 30px;
 }
 
 .projects-card__link {
@@ -32,13 +34,6 @@
   
     cursor: pointer;
     transition: box-shadow $primary-transition;
-
-    &:not(:nth-child(3n)) {
-        margin-right: 30px;
-    }
-    &:not(:nth-child(3n)) {
-        margin-right: 30px;
-    }
 }
   
 .projects-card__work-type {

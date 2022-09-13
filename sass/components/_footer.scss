@@ -25,6 +25,11 @@
     transition: $primary-transition;
   
     text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
 }
   
 .contacts-list__item:first-child {
@@ -95,7 +100,7 @@
 }
   
 .subscribe {
-    display: inline-block;
+    display: block;
     margin-left: 93px;
     width: 570px;
 }
